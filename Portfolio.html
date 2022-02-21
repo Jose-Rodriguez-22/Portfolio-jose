@@ -15,56 +15,104 @@
         <title>Portfolio</title>
   </head>
 
-  <body>
-      <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-        <!--container, adjust the width for each device-->
-        <div class="container">
-            <!--navbar-brand, company or product name-->
-          <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
+<body>
+    <!--NavBar-->
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <!--container, adjust the width for each device-->
+    <div class="container">
+        <!--navbar-brand, company or product name-->
+        <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
 
-          <!--navbar-toggler, collapse plugin and other nav toggling behaviors-->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
-            <span class="navbar-toggler-icon"></span> 
-          </button>
+        <!--navbar-toggler, collapse plugin and other nav toggling behaviors-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+        <span class="navbar-toggler-icon"></span> 
+        </button>
 
-          <!--.collapse .navbar-collapse, grouping and hiding navbar contents by parent breakpoint-->
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <!--navbar-nav, full-height and lightweight nav-->
-                <!--ms-auto, pushing items to the left-->
-                <!--mb-2, for margin bottom for 2 levels-->
-                <ul class="navbar-nav ms-auto mb-2">
-                    <li class="nav-item">
-                        <a class="nav-link font-black" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link font-black" href="#projects">Projects</a>
-                    </li>
-                </ul>
-          </div>
+        <!--.collapse .navbar-collapse, grouping and hiding navbar contents by parent breakpoint-->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <!--navbar-nav, full-height and lightweight nav-->
+            <!--ms-auto, pushing items to the left-->
+            <!--mb-2, for margin bottom for 2 levels-->
+            <ul class="navbar-nav ms-auto mb-2">
+                <li class="nav-item">
+                    <a class="nav-link font-black" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-black" href="#projects">Projects</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </div>
+    </nav>
 
-      <div id="about">
-        <h2><span class="font-primary">A</span>bout</h2>
-        <img src="img/sample-woman.jpg">
-        <div class="name">Jose Rodriguez</div>
-        <div class="vocation">Web Application Developer</div>
-        <div class="skills">HTML / CSS / JavaScript / React.js / Redux / Python / Django / Express.js / AWS(Basics) / Docker(Basics)</div>
-        <p>
-            Upcoming Full-Stack Web Developer currently studying as a Tech I.S. student
-        </p>
-        <div class="email">jrox9910@gmail.com</div>
-        <div class="icons">
-            <a href="#"><i class="bi bi-github"></i></a>
-            <!--ms-3, margin left 3 spaces-->
-            <a href="#"><i class="bi bi-linkedin ms-3"></i></a>
+    <div id="about">
+    <h2><span class="font-primary">A</span>bout</h2>
+    <img src="img/sample-woman.jpg">
+    <div class="name">Jose Rodriguez</div>
+    <div class="vocation">Web Application Developer</div>
+    <div class="skills">HTML / CSS / JavaScript / React.js / Redux / Python / Django / Express.js / AWS(Basics) / Docker(Basics)</div>
+    <p>
+        Upcoming Full-Stack Web Developer currently studying as a Tech I.S. student
+    </p>
+    <div class="email">jrox9910@gmail.com</div>
+    <div class="icons">
+        <a href="#"><i class="bi bi-github"></i></a>
+        <!--ms-3, margin left 3 spaces-->
+        <a href="#"><i class="bi bi-linkedin ms-3"></i></a>
+    </div>
+    </div>
+
+    <div id="project">
+        <h2><span class="font-primary">P</span>rojects</h2>
+
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/project-twitter.png" alt="Twitter Project">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Twitter Clone</h5>
+                        <p class="card-text">This is a Twitter based project made using Django</p>
+                        <p class="card-text"><small class="text-muted">
+                            Test Login Account <br>
+                            Email: test@gmail.com <br>
+                            Password: 1234
+                        </small></p>
+                        <a href="#" target="_blank" class="btn btn-secondary">Website Link</a>
+                        <a href="#" target="_blank" class="btn btn-secondary">Github Link</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous">
-        </script>
-  </body>
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/project-netflix.png" alt="Netflix Project">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Netflix Clone</h5>
+                        <p class="card-text">This is a Netflix based project using HTML / CSS / JS</p>
+                        <p class="card-text"><small class="text-muted">
+                            Test Login Account <br>
+                            Email: test@gmail.com <br>
+                            Password: 1234
+                        </small></p>
+                        <a href="#" target="_blank" class="btn btn-secondary">Website Link</a>
+                        <a href="#" target="_blank" class="btn btn-secondary">Github Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous">
+    </script>
+</body>
 </html>
